@@ -1,4 +1,3 @@
-# test/views.py
 from django.http import FileResponse
 from reportlab.pdfgen import canvas
 from .models import Book
