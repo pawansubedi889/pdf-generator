@@ -13,7 +13,7 @@ def home(request):
 			return redirect('home') 
 	else:
 		form = BookForm()
-	return render(request, 'myapp/create_user_profile.html', 
+	return render(request, 'generator/create_user_profile.html', 
 				{'form': form})
 
 def generate_pdf(request):
